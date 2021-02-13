@@ -147,6 +147,8 @@ saveBtn.onclick = () => {
             document.querySelector('#todoContainerForm').removeChild(document.querySelector('#todoContainerForm').firstChild)
         }
 
+        document.querySelector('#inputToDoForm').value = null
+        
         pFormDiv.style.display = 'none'
         
         displayLS()
