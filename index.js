@@ -233,7 +233,6 @@ function displayLS(){
 
                 pFormDiv.style.display = 'none'
 
-                //when hit delete project, this is still inputting the pId
                 localStorage.setItem('ls.pId', e.currentTarget.id)
 
                 displayLS()        
@@ -403,14 +402,12 @@ function displayTodos(){ // this is in todoList()
     pArray = JSON.parse(localStorage.getItem('ls.pArray'))
     
     setPSelected()
-    
-    let todos
 
     removeChildren(document.getElementById('todoContainer'))
 
     if (pSelected != undefined){
 
-        todos = pSelected.todo
+        let todos = pSelected.todo
         
         todos.forEach(x=> {
     
