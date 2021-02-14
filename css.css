@@ -21,6 +21,7 @@ button{
 button:hover{
     background-color: grey;
 }
+
 /* Sidebar Project Names div */
 
 #sideBar{
@@ -101,12 +102,6 @@ header{
 #formDiv p{
     margin: 0;
 }
-#pDueDate{
-    /* overflow: hidden;
-    overflow-wrap: normal; */
-}
-#selectorDiv{
-}
 select{
     border-radius: 5px;
     height: 1.5rem;
@@ -118,7 +113,8 @@ select{
     height: 1.5rem;
     border-radius: 5px;
     border: none;
-    margin-right: 1rem;}
+    margin-right: 1rem;
+}
 #inputToDoWrapperForm{
     width: 100%;
 }
@@ -182,7 +178,6 @@ select{
 #pDetailsDiv div{
     display: flex;
     align-items: center;
-    /* padding-left: 4rem;  */
 }
 #pDetailsDiv h4{
     padding-left: 1rem;
@@ -215,8 +210,6 @@ h4{
 
 #todoContainer{
     flex-direction: column;
-    /* padding-right: 1.6rem; */
-
 }
 #todoContainer div{
     display: flex;
@@ -240,7 +233,6 @@ h4{
     padding-top: .5rem;
     padding-bottom: .5rem;
     display: flex;
-    /* justify-content: flex-end; */
     padding-right: 1rem;
     padding-left: 1rem;
 }

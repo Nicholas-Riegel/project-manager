@@ -14,7 +14,7 @@
 <body>
     <header></header>
     <main>
-        <!-- <div></div> these are just to take up space in grid -->
+
         <div id="sideBar">
         
             <header>
@@ -26,14 +26,14 @@
             <div id="pBtnsDiv">
                 <button id="newProjectBtn">New Project</button>
                 <button id="deleteProject">Delete Project</button>
-                <!-- <i class="fas fa-plus-circle" id="newProjectBtn"></i>
-                <i class="fas fa-minus-circle" id="deleteProject"></i> -->
             </div>
             
         </div>
-        <!-- <div></div> these are just to take up space in grid -->
+
 <!-- This to be hidden, toggled with below -->
+
         <div id="content">
+            
             <div id="pFormDiv">
                 
                 <div id="newProjectDiv" class="fDiv">
@@ -54,24 +54,24 @@
                     <h4>Due Date:</h4>
                     <input type="text" id="inputDueDate" class="formInputs">
                 </div>
+        
                 <div id="selectorDiv" class="fDiv">
                     <h4>Priority:</h4>
-                        <div id="selectWrapper">
-                            <select name="dropdown" id="dropdown">
-                                <option disabled selected>Select</option>
-                                <option value="high">High</option>
-                                <option value="medium">Medium</option>
-                                <option value="low">Low</option>
-                            </select>
-                        </div>
+                    <div id="selectWrapper">
+                        <select name="dropdown" id="dropdown">
+                            <option disabled selected>Select</option>
+                            <option value="high">High</option>
+                            <option value="medium">Medium</option>
+                            <option value="low">Low</option>
+                        </select>
+                    </div>
                 </div>
 
                 <div style="margin-top: 1rem;">
                     <h4>To Dos:</h4>
                 </div>
                 
-                <div id="todoContainerForm">
-                </div>
+                <div id="todoContainerForm"></div>
                 
                 <div id="inputToDoDivForm">
                     <div id="inputToDoWrapperForm" class="fDiv">
@@ -83,15 +83,17 @@
                 <div id="saveCancelDiv">
                     <button id="save">Save</button>
                     <button id="cancel">Cancel</button>
-                    <!-- <i class="fas fa-plus-circle" id="submit"></i>
-                    <i class="fas fa-minus-circle" id="cancel"></i> -->
                 </div>
+
             </div>
+
     <!-- This is to be hidden, toggled with above -->
             <div id="pDetailsDiv">
+
                 <div id="projectDetails">
                     <h2>Project Details</h2>
                 </div>
+
                 <div>
                     <h4>Project Name:</h4>
                     <div id="pTitle" class="pOutputs"></div>
@@ -106,6 +108,7 @@
                     <h4>Due Date:</h4>
                     <div id="pDueDate" class="pOutputs"></div>
                 </div>
+
                 <div>
                     <h4>Priority:</h4>
                     <div id="pPriority" class="pOutputs"></div>
@@ -115,8 +118,7 @@
                     <h4>To Dos:</h4>
                 </div>
                 
-                <div id="todoContainer">
-                </div>
+                <div id="todoContainer"></div>
                 
                 <div id="inputToDoDiv">
                     <div id="inputToDoWrapper">
@@ -124,9 +126,9 @@
                         <i class="fas fa-plus-circle" id="newToDoBtn"></i>
                     </div>
                 </div>
+
             </div>
         </div>
-        <!-- <div></div> these are just to take up space in grid -->
     </main>
     <script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
 </body>

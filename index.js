@@ -1,4 +1,4 @@
-// SIDEBAR: PROJECT NAME
+// CONSTANTS
 
 // 'p' or 'P' here alone stands for 'projects'
 const pNameDiv = document.querySelector('#pNameDiv')
@@ -14,13 +14,15 @@ const cancelBtn = document.querySelector('#cancel')
 const deleteProjectBtn = document.querySelector('#deleteProject')
 const newToDoBtnForm = document.querySelector('#newToDoBtnForm')
 
-//get pArray from LS
+//get project Array from LS
 let pArray = JSON.parse(localStorage.getItem('ls.pArray')) || []
 
-//get pId from LS [is this going to be string?]
+//get project Id from LS 
 let pId = localStorage.getItem('ls.pId') || undefined
 
-// function > create new p object 
+// SIDEBAR: PROJECT NAME
+
+// function > create new project object 
 function pCreate(title, description, duedate, priority){
     
     return {
@@ -36,7 +38,7 @@ function pCreate(title, description, duedate, priority){
 // date picker
 flatpickr("#inputDueDate", {
     dateFormat: "l, F j, Y",
-});
+})
 
 // new project btn
 newProjectBtn.onclick = () => {
@@ -46,7 +48,7 @@ newProjectBtn.onclick = () => {
     pFormDiv.style.display = 'block'
 }
 
-// //temporary delete all function
+//temporary delete all function
 function deleteAll(){
     
     localStorage.removeItem('ls.pArray')
@@ -142,7 +144,6 @@ saveBtn.onclick = () => {
         inputDueDate.value = null
         document.querySelector('select').selectedIndex = 0
 
-        //////// clear form todo div here
         while (document.querySelector('#todoContainerForm').firstChild){
             document.querySelector('#todoContainerForm').removeChild(document.querySelector('#todoContainerForm').firstChild)
         }
@@ -346,7 +347,7 @@ newToDoBtn.addEventListener('click', () => {
     }
 })
 
-// detele todo [for dete todo btn in displayTodos()]
+// delete todo [for dete todo btn in displayTodos()]
 function delTodo(e){
     
     pArray = JSON.parse(localStorage.getItem('ls.pArray'))
