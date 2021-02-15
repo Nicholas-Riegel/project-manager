@@ -1,95 +1,95 @@
-body{
+body {
     background-color: rgb(105, 97, 206);
     font-family: 'Courier New', Courier, monospace;
 }
-main{
+main {
     display: flex;
     justify-content: center;
     align-items: flex-start;
 }
-div{
+div {
     /* border: darkred dotted 1px; */
 }
-button{
+button {
     border-radius: 5px;
     border: none;
     font-family: 'Courier New', Courier, monospace;
     font-weight: 545;
-    padding: .3rem;
+    padding: 0.3rem;
     cursor: pointer;
 }
-button:hover{
+button:hover {
     background-color: grey;
 }
 
 /* Sidebar Project Names div */
 
-#sideBar{
+#sideBar {
     border-radius: 30px;
     background-color: rgb(146, 178, 238);
     margin-right: 10%;
     width: 23%;
-    padding-bottom: .5rem;
+    padding-bottom: 0.5rem;
 }
-#pBtnsDiv{
+#pBtnsDiv {
     display: flex;
     justify-content: center;
-    padding: .5rem;
+    padding: 0.5rem;
 }
-header{
+header {
     height: 5rem;
     display: flex;
     justify-content: center;
     align-items: center;
     /* border: green solid 1px; */
 }
-#pNameDiv div{
+#pNameDiv div {
     cursor: pointer;
     display: flex;
     align-items: center;
-    margin: .5rem 1rem;
+    margin: 0.5rem 1rem;
     height: 1.5rem;
-    padding-left: .5rem;
+    padding-left: 0.5rem;
     background-color: whitesmoke;
     border-radius: 5px;
 }
-#pNameDiv div:hover{
+#pNameDiv div:hover {
     background-color: gray;
 }
-#pNameDiv p{
+#pNameDiv p {
     margin: 0;
 }
-.activeDiv{
+.activeDiv {
     font-weight: bold;
 }
-#newProjectBtn{
+#newProjectBtn {
     margin-right: 1rem;
 }
 
 /* Content div  */
 
-#content{
+#content {
     border-radius: 30px;
     width: 50%;
 }
 
 /* Form Div */
 
-#pFormDiv{
+#pFormDiv {
     display: none;
     border-radius: 30px;
     background-color: rgb(138, 172, 236);
     padding: 0 1rem 1rem;
 }
-#newProjectDiv{
+#newProjectDiv {
     display: flex;
     justify-content: center;
 }
-.fDiv{
+.fDiv {
     display: flex;
     align-items: center;
 }
-.formInputs{
+.formInputs {
     margin-left: auto;
     width: 73%;
     overflow: hidden;
@@ -99,15 +99,15 @@ header{
     border: none;
     margin-right: 1rem;
 }
-#formDiv p{
+#formDiv p {
     margin: 0;
 }
-select{
+select {
     border-radius: 5px;
     height: 1.5rem;
     border: none;
 }
-#selectWrapper{
+#selectWrapper {
     margin-left: auto;
     width: 73.7%;
     height: 1.5rem;
@@ -115,143 +115,143 @@ select{
     border: none;
     margin-right: 1rem;
 }
-#inputToDoWrapperForm{
+#inputToDoWrapperForm {
     width: 100%;
 }
-#todoContainerForm div{
+#todoContainerForm div {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-top: .5rem;
+    margin-top: 0.5rem;
     min-height: 1.7rem;
     border-radius: 5px;
     background-color: rgb(248, 247, 245);
-    padding-left: .7rem;
+    padding-left: 0.7rem;
     overflow-wrap: normal;
     padding-bottom: 0;
 }
-#todoContainerForm p{
+#todoContainerForm p {
     margin: 0;
 }
-#inputToDoWrapperForm{
+#inputToDoWrapperForm {
     display: flex;
-    margin-top: .5rem;
+    margin-top: 0.5rem;
     background-color: rgb(248, 247, 245);
     border-radius: 5px;
     width: 99.9%;
 }
-#inputToDoForm{
+#inputToDoForm {
     width: 100%;
     min-height: 1.7rem;
     border-radius: 5px;
     border: none;
-    padding-left: .7rem;
+    padding-left: 0.7rem;
     font-family: 'Courier New', Courier, monospace;
     font-size: 1em;
 }
-#saveCancelDiv{
+#saveCancelDiv {
     display: flex;
     align-items: center;
     padding-top: 1rem;
 }
-#save{
+#save {
     margin-left: auto;
 }
-#cancel{
+#cancel {
     margin-right: 2rem;
-    margin-left: .7rem;
+    margin-left: 0.7rem;
 }
 
 /* Project Details div */
 
-#pDetailsDiv{
+#pDetailsDiv {
     display: none;
     border-radius: 30px;
     background-color: rgb(145, 177, 236);
     padding: 0 1rem 2rem 1rem;
 }
-#projectDetails{
+#projectDetails {
     display: flex;
     justify-content: center;
     align-items: center;
 }
-#pDetailsDiv div{
+#pDetailsDiv div {
     display: flex;
     align-items: center;
 }
-#pDetailsDiv h4{
+#pDetailsDiv h4 {
     padding-left: 1rem;
 }
-h4{
-    margin-top: .7rem;
-    margin-bottom: .7rem;
+h4 {
+    margin-top: 0.7rem;
+    margin-bottom: 0.7rem;
 }
-.pOutputs{
+.pOutputs {
     margin-left: auto;
     width: 60%;
     margin-right: 3%;
     min-height: 1.7rem;
     border-radius: 5px;
-    padding-left: .5rem;
-    padding-right: .5rem;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
     background-color: rgb(252, 251, 247);
     overflow-wrap: normal;
 }
-.fas{
+.fas {
     font-size: 1.2rem;
     color: rgb(120, 120, 216);
-    padding: .2rem;
+    padding: 0.2rem;
 }
-.fas:hover{
+.fas:hover {
     font-size: 1.4rem;
 }
 
 /* To dos */
 
-#todoContainer{
+#todoContainer {
     flex-direction: column;
 }
-#todoContainer div{
+#todoContainer div {
     display: flex;
     flex-direction: row;
     width: 93%;
-    margin-top: .5rem;
+    margin-top: 0.5rem;
     min-height: 1.7rem;
     border-radius: 5px;
     background-color: rgb(248, 247, 245);
-    padding-left: .7rem;
+    padding-left: 0.7rem;
     overflow-wrap: normal;
 }
-#todoContainer p{
+#todoContainer p {
     padding: 0;
     margin: 0;
 }
-.checks{
+.checks {
     margin-left: auto;
 }
-#inputToDoDiv{
-    padding-top: .5rem;
-    padding-bottom: .5rem;
+#inputToDoDiv {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
     display: flex;
     padding-right: 1rem;
     padding-left: 1rem;
 }
-#inputToDo{
+#inputToDo {
     width: 100%;
     height: 1.5rem;
     border-radius: 5px;
     border: none;
-    margin-right: .3rem;
+    margin-right: 0.3rem;
     background-color: transparent;
-    padding-left: .8rem;
+    padding-left: 0.8rem;
     font-family: 'Courier New', Courier, monospace;
 }
-#inputToDoWrapper{
+#inputToDoWrapper {
     border-radius: 5px;
     background-color: rgb(247, 243, 247);
     width: 100%;
 }
-#newToDoBtn{
+#newToDoBtn {
     margin-left: auto;
-    margin-right: .1rem;
+    margin-right: 0.1rem;
 }

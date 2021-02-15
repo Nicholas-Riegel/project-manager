@@ -1,0 +1,23 @@
+{
+  "name": "project-manager",
+  "version": "1.0.0",
+  "description": "At a later date I would like to come back to this project and add some functionalities - like making saved fields editable, but right now I feel like I've spent a lot of time on it, and I would like to return to progressing through TOP's modules.",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "eslint": "^7.20.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/koalatree/project-manager.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/koalatree/project-manager/issues"
+  },
+  "homepage": "https://github.com/koalatree/project-manager#readme"
+}
