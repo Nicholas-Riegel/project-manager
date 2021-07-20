@@ -7,9 +7,6 @@ main {
     justify-content: center;
     align-items: flex-start;
 }
-div {
-    /* border: darkred dotted 1px; */
-}
 button {
     border-radius: 5px;
     border: none;
